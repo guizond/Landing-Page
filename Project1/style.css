@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Roboto+Slab&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, hsla(43, 66%, 87%, 1) 18%, hsla(44, 61%, 94%, 1) 49%, hsla(43, 66%, 87%, 1) 82%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-image {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 72px;
+    border-top: 0.5px solid #000;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 72px;
+    color: #3E6913;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.conteudo-principal-escrito-button {
+    background-color: #3E6913;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px;
+    border-radius: 15px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #223B09;
+}
+
+.conteudo-principal-escrito-button:hover {
+    background-color: hsla(43, 66%, 87%, 1);
+}
+
+.conteudo-principal-image {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0,4px solid #000;
+    margin-top: 48px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #3E6913;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000
+}
+
+.rodape{
+    margin-bottom: 72px;
+    border-top: 0.5px solid #000;
+}
+
+.rodape-image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
